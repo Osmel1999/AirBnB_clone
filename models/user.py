@@ -1,17 +1,10 @@
 #!/usr/bin/python3
-"""
-A class User that inherits from BaseModel
-"""
-
+"""Module for User class."""
 from models.base_model import BaseModel
 
 
 class User(BaseModel):
-    """
-    This class allows to create
-    states in the application.
-    User Class attributes
-    """
+    """Class representing a User."""
     email = ""
     password = ""
     first_name = ""
